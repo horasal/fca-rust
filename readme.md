@@ -4,9 +4,11 @@ Implementations of algorithms in formal concept analysis.
 
 ## Status
 
-[x] Sequential Concept Enumerator \*1
-[ ] Parallel Concept Enumerator \*1
-[ ] MapReduce Concept Enumerator \*2
+* [x] Sequential Concept Enumerator \*1
+
+* [ ] Parallel Concept Enumerator \*1
+
+* [ ] MapReduce Concept Enumerator \*2
 
 \*1 Parallel Recursive Algorithm for FCA, Petr Krajca, Jan Outrata and Vilem Vychodil, *The International Conference on Concept Lattices and Their Applications*, 2008.
 
