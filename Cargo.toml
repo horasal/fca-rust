@@ -1,0 +1,18 @@
+[package]
+name = "fca"
+version = "0.1.0"
+authors = ["Hongjie Zhai <zhaihj@live.jp>"]
+
+[enumeration]
+#dummy=[]
+
+[dependencies]
+csv="0.14"
+rustc-serialize="0.3"
+rand="0.3"
+bitvector = {git = "https://github.com/zhaihj/bitvector", branch = "master"}
+
+[profile.release]
+#debug = true
+lto = true
+panic = "abort"
