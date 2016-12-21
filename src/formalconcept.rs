@@ -104,7 +104,9 @@ pub trait FormalConcept {
     fn closure_extend(&self, concept: &Concept, new_attr: &usize) -> Concept;
 }
 
-pub trait Enumerator { fn enumerate(mut self); }
+pub trait Enumerator { 
+    fn enumerate(self); 
+}
 
 /// Concept lattice
 /// 
