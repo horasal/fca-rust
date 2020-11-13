@@ -20,7 +20,7 @@ Implementations of algorithms in formal concept analysis.
 Firstly, clone the repo:
 
 ```bash
-git clone https://github.com/zhaihj/fca-rust
+git clone https://github.com/horasal/fca-rust
 ```
 
 Build the project with `cargo`:
